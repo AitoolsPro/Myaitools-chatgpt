@@ -1,7 +1,7 @@
 <div align="center">
 <img src="./static/icon.svg" alt="预览"/>
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1 align="center">Myaitools.cn</h1>
 
 一键部署你的私人 ChatGPT 网页应用。
 
@@ -167,6 +167,7 @@ If you would like to contribute your API key, you can email it to the author and
 [@ClarenceDan](https://github.com/ClarenceDan)
 
 ### 贡献者 Contributor
+
 [@AprilNEA](https://github.com/AprilNEA)
 
 ## LICENSE
