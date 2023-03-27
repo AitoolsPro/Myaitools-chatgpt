@@ -71,8 +71,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle:
-        "默认由艾兔思提供，滥用删ID，使用自己的KEY可绕受控访问限制，如有需要联系客服",
+      SubTitle: "使用自己的 Key 可绕过受控访问限制",
       Placeholder: "OpenAI API Key",
     },
     AccessCode: {
@@ -97,7 +96,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- 如有使用问题，请关注上方公众号联系客服，进Ai交流群。",
+      "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- @艾兔思Aitools中文导航论坛。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
