@@ -406,9 +406,11 @@ function useSwitchTheme() {
       document.body.classList.add("light");
     }
 
-    const themeColor = getComputedStyle(document.body).getPropertyValue("--theme-color").trim();
+    const themeColor = getComputedStyle(document.body)
+      .getPropertyValue("--theme-color")
+      .trim();
     const metaDescription = document.querySelector('meta[name="theme-color"]');
-    metaDescription?.setAttribute('content', themeColor);
+    metaDescription?.setAttribute("content", themeColor);
   }, [config.theme]);
 }
 
@@ -501,9 +503,9 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>艾兔思Aitools-ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            让工具成为思维的延伸.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
