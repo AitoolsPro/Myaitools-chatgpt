@@ -50,11 +50,7 @@ const cn = {
       },
     },
     Avatar: "头像",
-    Update: {
-      Version: (x: string) => `ai资源导航网`,
 
-      FoundUpdate: (x: string) => `访问aitools.chat`,
-    },
     SendKey: "发送键",
     Theme: "主题",
     TightBorder: "紧凑边框",
@@ -68,7 +64,8 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
+      SubTitle:
+        "默认由艾兔思提供，滥用删ID，使用自己的KEY可绕受控访问限制，如有需要联系客服",
       Placeholder: "OpenAI API Key",
     },
     AccessCode: {
