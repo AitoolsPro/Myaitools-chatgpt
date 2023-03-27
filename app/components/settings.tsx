@@ -142,16 +142,7 @@ export function Settings(props: { closeSettings: () => void }) {
             </Popover>
           </SettingItem>
 
-          <SettingItem
-            title={Locale.Settings.Update.Version(currentId)}
-            subTitle={
-              checkingUpdate
-                ? Locale.Settings.Update.IsChecking
-                : hasNewVersion
-                ? Locale.Settings.Update.FoundUpdate(remoteId ?? "ERROR")
-                : Locale.Settings.Update.IsLatest
-            }
-          >
+       
             {checkingUpdate ? (
               <div />
             ) : hasNewVersion ? (
