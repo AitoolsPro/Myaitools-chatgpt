@@ -96,7 +96,7 @@ const cn = {
   Store: {
     DefaultTopic: "新的聊天",
     BotHello:
-      "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- @艾兔思Aitools中文导航论坛。",
+      "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- 请各位朋友帮忙关注，抖音微信视频号\n- 陆续会更新ChatGPT、Ai绘图、数字人等主流软件使用教程视频。\n- 如果在使用过程中，遇到问题可以关注微信公众号联系客服，进Ai交流群，公众号定期推送有价值的Ai信息。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
