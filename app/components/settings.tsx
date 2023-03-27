@@ -76,7 +76,7 @@ export function Settings(props: { closeSettings: () => void }) {
   const enabledAccessControl = useMemo(
     () => accessStore.enabledAccessControl(),
     []
-  );
+  )
 
   return (
     <>
