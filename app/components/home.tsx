@@ -19,14 +19,6 @@ import MenuIcon from "../icons/menu.svg";
 import CloseIcon from "../icons/close.svg";
 import CopyIcon from "../icons/copy.svg";
 import DownloadIcon from "../icons/download.svg";
-<div className={styles["sidebar-action"]}>
-  <a href={REPO_URL} target="_blank">
-    <img
-      src="https://www.aitools.chat/wp-content/themes/onenav/images/favicon.png"
-      alt="Github Icon"
-    />
-  </a>
-</div>;
 
 import { Message, SubmitKey, useChatStore, ChatSession } from "../store";
 import { showModal, showToast } from "./ui-lib";
@@ -414,11 +406,9 @@ function useSwitchTheme() {
       document.body.classList.add("light");
     }
 
-    const themeColor = getComputedStyle(document.body)
-      .getPropertyValue("--theme-color")
-      .trim();
+    const themeColor = getComputedStyle(document.body).getPropertyValue("--theme-color").trim();
     const metaDescription = document.querySelector('meta[name="theme-color"]');
-    metaDescription?.setAttribute("content", themeColor);
+    metaDescription?.setAttribute('content', themeColor);
   }, [config.theme]);
 }
 
@@ -511,11 +501,9 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>
-            艾兔思 Aitools - ChatGPT
-          </div>
+          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
           <div className={styles["sidebar-sub-title"]}>
-            如有使用问题，关注微信公众号：艾兔思Aitools,进Ai群交流.
+            Build your own AI assistant.
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />

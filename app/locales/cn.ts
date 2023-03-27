@@ -49,11 +49,14 @@ const cn = {
         en: "English",
       },
     },
-    Avatar: "更换头像",
+    Avatar: "头像",
     Update: {
-      Version: (x: string) => `当前版本`,
-
-      FoundUpdate: (x: string) => `Aitools-ChatGPT - V0.0.1.0`,
+      Version: (x: string) => `当前版本：${x}`,
+      IsLatest: "已是最新版本",
+      CheckUpdate: "检查更新",
+      IsChecking: "正在检查更新...",
+      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -68,8 +71,7 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle:
-        "默认由艾兔思提供，由于访问使用量较大，偶尔会失效，需要更新。自己设置专用KEY，稳定可绕过访问限制。",
+      SubTitle: "使用自己的 Key 可绕过受控访问限制",
       Placeholder: "OpenAI API Key",
     },
     AccessCode: {
@@ -93,8 +95,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello:
-      "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | 您AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- 初次使用请进行设置，如有使用问题关注上方微信公众号联系客服。",
+    BotHello: "欢迎使用 ChatGPT 聊天机器人\n- 艾兔思Aitools | AI终极指南\n- 抖音/微信公众号/视频号：艾兔思Aitools\n- @艾兔思Aitools中文导航论坛。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
