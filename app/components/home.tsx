@@ -503,7 +503,7 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>艾兔思Aitools-ChatGPT</div>
+          <div className={styles["sidebar-title"]}>艾 兔 思 Aitools</div>
           <div className={styles["sidebar-sub-title"]}>
             让工具成为思维的延伸.
           </div>
