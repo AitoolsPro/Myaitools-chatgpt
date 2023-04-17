@@ -3,15 +3,15 @@
 
 <h1 align="center">Myaitools.cn</h1>
 
-一键部署你的私人 ChatGPT 网页应用。
+一键部署你的私人 ChatGPT 网页应用。基于@yidadaa 二次开发
 
 One-Click to deploy your own ChatGPT web UI.
 
-[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [微信群](https://user-images.githubusercontent.com/16968934/227772522-b3ba3713-9206-4c8d-a81f-22300b7c313a.jpg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[演示 Demo](https://www.myaitools.cn//) / [反馈 Issues](https://github.com/AitoolsPro/Myaitools-chatgpt/issues) / [加入 Discord](https://discord.gg/JKcJHvJqEG) / [电报群](https://t.me/AitoolsChats) / 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2AitoolsPro%2FMyaitools-chatgpt)&env=OPENAI_API_KEY&project-name=Myaitools-chatgpt)&repository-name=Myaitools-chatgpt))
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AitoolsPro/Myaitools-chatgpt)
 
 ![主界面](./static/cover.png)
 
@@ -38,7 +38,7 @@ One-Click to deploy your own ChatGPT web UI.
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. 点击右侧按钮开始部署：
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)，直接使用 Github 账号登陆即可，记得在环境变量页填入 API Key；
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2AitoolsPro%2FMyaitools-chatgpt&env=OPENAI_API_KEY&project-name=Myaitools-chatgpt&repository-name=Myaitools-chatgpt)，直接使用 Github 账号登陆即可，记得在环境变量页填入 API Key；
 3. 部署完毕后即可开始使用；
 4. （可选）[绑定自定义域名](https://vercel.com/docs/concepts/projects/domains/add-a-domain)：Vercel 分配的域名 DNS 在某些区域被污染了，绑定自定义域名即可直连。
 
@@ -46,7 +46,7 @@ One-Click to deploy your own ChatGPT web UI.
 
 1. Get [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. Click
-   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web);
+   [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2AitoolsPro%2FMyaitools-chatgpt&env=OPENAI_API_KEY&project-name=Myaitools-chatgpt&repository-name=Myaitools-chatgpt);
 3. Enjoy :)
 
 ## 保持更新 Keep Updated
@@ -94,11 +94,7 @@ code1,code2,code3
 
 After adding or modifying this environment variable, please redeploy the project for the changes to take effect.
 
-## 开发 Development
 
-点击下方按钮，开始二次开发：
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
 在开始写代码之前，需要在项目根目录新建一个 `.env.local` 文件，里面填入环境变量：
 
@@ -159,17 +155,7 @@ The free trial of the OpenAI account used by the demo will expire on April 1, 20
 
 If you would like to contribute your API key, you can email it to the author and indicate the expiration date of the API key.
 
-## 鸣谢 Special Thanks
 
-### 捐赠者 Sponsor
 
-[@mushan0x0](https://github.com/mushan0x0)
-[@ClarenceDan](https://github.com/ClarenceDan)
 
-### 贡献者 Contributor
 
-[@AprilNEA](https://github.com/AprilNEA)
-
-## LICENSE
-
-- [Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)
