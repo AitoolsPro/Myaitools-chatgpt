@@ -130,7 +130,7 @@ how to deploy nextjs project with pm2 and yarn on my ubuntu server, the build co
 请直接询问 ChatGPT，使用下列 Prompt：
 
 ```
-如何使用 docker 部署 nextjs 项目到 ubuntu 服务器上，项目编译命令为 yarn build，启动命令为 yarn start，启动时需要设置环境变量为 OPENAI_API_KEY，端口为 3000，使用 ngnix 做反向代理
+如何使用 docker 部 署 nextjs 项目到 ubuntu 服务器上，项目编译命令为 yarn build，启动命令为 yarn start，启动时需要设置环境变量为 OPENAI_API_KEY，端口为 3000，使用 ngnix 做反向代理
 ```
 
 Please ask ChatGPT with prompt:
