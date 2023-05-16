@@ -3,7 +3,7 @@
 
 <h1 align="center">Myaitools.cn</h1>
 
-一键部署你的私人 ChatGPT 网页应用。基于@yidadaa 二次开发
+一键部署你的私人 ChatGPT 网页应用。 基于@yidadaa 二次开发
 
 One-Click to deploy your own ChatGPT web UI.
 
